@@ -1,6 +1,6 @@
 # Bat1K DwC-A
 
-This repository contains a prototype of Bat1K's Index of Available Genomes for Living Bat Species expressed as a [Darwin Core](#1) archive [```[1]```](#1). This prototype enable the registration of Bat1K metadata with biodiversity data infrastructures such as Global Biodiversity Information Facility (GBIF) as to increase the visibility and resuse of the data.  
+[This repository](https://github.com/jhpoelen/bat1k-dwca) contains a prototype of Bat1K's Index of Available Genomes for Living Bat Species expressed as a [Darwin Core](#1) archive [```[1]```](#1). This prototype enable the registration of Bat1K metadata with biodiversity data infrastructures such as Global Biodiversity Information Facility (GBIF) as to increase the visibility and resuse of the data.  
 
 This was a data experiment was the outcome of a presentation given by Jorrit Poelen on 27 September 2024 at the Bat1K Symposium of the North American Society for Bat Research (NASBR) in Guadalajara, Mexico. See also https://github.com/jhpoelen/bat1k-talk-2024-10-27 and https://jhpoelen.nl/bat1k-talk-2024-10-27 .
 
