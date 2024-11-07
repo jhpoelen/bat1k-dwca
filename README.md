@@ -124,7 +124,7 @@ cctaaccctaaccctaacccctaaccctaacctctaccctaaccctaacc
 caaccctaaccctaaccctaaccctaaccctaacccaacccaccctaacc
 ```
 
-Note that the only the reference to the sequence is shared (i.e. ```hash://md5/14640c6ba5808d849e7a24da73893182```), the sequence itself is only available to those that are Bat1K members. In this case, a private collection of the Bat1K sequence data was indexed by Preston using:
+Note that the only the reference to the sequence is shared (i.e. ```hash://md5/14640c6ba5808d849e7a24da73893182```), the sequence itself is only available to registered Bat1K members. In this example, a private collection of the Bat1K sequence data was indexed by Preston using:
 
 ```
 preston track\
