@@ -2,6 +2,19 @@
 
 This prototype is the outcome of a presentation given by Jorrit Poelen on 27 September 2024 at the Bat1K Symposium of the [North American Society for Bat Research (NASBR) in Guadalajara, Mexico](https://www.nasbr.org/welcome24). See also [https://github.com/jhpoelen/bat1k-talk-2024-10-27](https://github.com/jhpoelen/bat1k-talk-2024-10-27) and [https://jhpoelen.nl/bat1k-talk-2024-10-27](https://jhpoelen.nl/bat1k-talk-2024-10-27) .
 
+## Methods
+## Results
+
+Our resulting Bat1K Darwin Core Archive consists of the following files:
+
+[```meta.xml```](./meta.xml) - describes the structure of the archive and point to associated metadata and data files
+
+[```eml.xml```](./eml.xml) - contains metadata about this archive, including but not limited to: a title, a point of contact, associated organization and websites.
+
+[```seq.tsv```](./seq.tsv) - contains the "meat" of the darwin core archive: the formatted data records as referenced and described in [```meta.xml```](./meta.xml) . 
+
+At time of writing (2024-11-07), a copy of the Bat1K darwin core archive can be accessed as a zip file via [https://github.com/jhpoelen/bat1k-dwca/archive/main.zip](https://github.com/jhpoelen/bat1k-dwca/archive/main.zip) . 
+
 ## Example Usage
 
 Now that Bat1K data is packaged in a DwC-A, we can use existing tools like [Preston](https://github.com/bio-guoda/preston) to track and process the bat1k index.
