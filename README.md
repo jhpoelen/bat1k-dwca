@@ -1,4 +1,4 @@
-[This repository](https://github.com/jhpoelen/bat1k-dwca) contains a prototype of Bat1K's Index of Available Genomes for Living Bat Species expressed as a [Darwin Core](#1) archive [```[1]```](#1). This prototype enable the registration of Bat1K metadata with biodiversity data infrastructures such as Global Biodiversity Information Facility (GBIF) as to increase the visibility and resuse of the data.  
+[This repository](https://github.com/jhpoelen/bat1k-dwca) contains a prototype of [Bat1K](https://bat1k.com)'s Index of Available Genomes for Living Bat Species [```[1]```](#1) expressed as a [Darwin Core](#1) archive [```[2]```](#2). This prototype enable the registration of Bat1K metadata with biodiversity data infrastructures such as Global Biodiversity Information Facility (GBIF) as to increase the visibility and resuse of the data.  
 
 This prototype is the outcome of a presentation given by Jorrit Poelen on 27 September 2024 at the Bat1K Symposium of the [North American Society for Bat Research (NASBR) in Guadalajara, Mexico](https://www.nasbr.org/welcome24). See also [https://github.com/jhpoelen/bat1k-talk-2024-10-27](https://github.com/jhpoelen/bat1k-talk-2024-10-27) and [https://jhpoelen.nl/bat1k-talk-2024-10-27](https://jhpoelen.nl/bat1k-talk-2024-10-27) .
 
@@ -95,7 +95,7 @@ Bat1K: Best Available Genome Sequences for Living Bat (Chiroptera) Species. Acce
 
 In the example below, we select a Bat1K index record with scientific name _Myotis lucifugus_ (Little brown bat), select their occurrenceID, and use this occurrenceId to query a local private repository with Bat1K sequences to retrieve their associated sequence. Then, the first 10 lines are printed using ```head``` after decompressing the sequence data using ```gunzip```.
 
-This example shows that you can use an index integrate with privately available data repositories using digital signatures [```[2]```](#2) of the associated genome data files. 
+This example shows that you can use an index integrate with privately available data repositories using digital signatures [```[3]```](#3) of the associated genome data files. 
 
 
 ```bash
@@ -139,8 +139,11 @@ preston s
 
 ## References
 
-### 1 
+### 1
+Teeling, EC, Vernes, S, Davalos, LM, Ray, DA, Gilbert, MTP, Myers, E. & the Bat1K Consortium (2018) Bat Biology, Genomes, and the Bat1K Project: To Generate Chromosome-Level Genomes for all Living Bat Species. Annual Review of Animal Biosciences. [doi:10.1146/annurev-animal-022516-022811](https://doi.org/10.1146/annurev-animal-022516-022811). [pdf](https://www.annualreviews.org/doi/pdf/10.1146/annurev-animal-022516-022811)
+
+### 2 
 Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, et al. (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715
 
-### 2
+### 3
 Elliott M.J., Poelen, J.H. & Fortes, J.A.B. (2023) Signing data citations enables data verification and citation persistence. Sci Data. https://doi.org/10.1038/s41597-023-02230-y https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d
