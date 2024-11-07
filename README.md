@@ -119,7 +119,7 @@ preston head\
  | preston dwc-stream\
  | jq 'select(.["http://rs.tdwg.org/dwc/terms/scientificName"] == "Myotis lucifugus")'\
  | jq --raw-output '.["http://rs.tdwg.org/dwc/terms/occurrenceID"]'\
- | xargs -L1 preston cat --no-cache --remote https://localhost:8080/\
+ | xargs -L1 preston cat --no-cache --remote http://localhost:8080/\
  | gunzip\
  | head
 ```
@@ -158,7 +158,7 @@ preston s
 Teeling, EC, Vernes, S, Davalos, LM, Ray, DA, Gilbert, MTP, Myers, E. & the Bat1K Consortium (2018) Bat Biology, Genomes, and the Bat1K Project: To Generate Chromosome-Level Genomes for all Living Bat Species. Annual Review of Animal Biosciences. [doi:10.1146/annurev-animal-022516-022811](https://doi.org/10.1146/annurev-animal-022516-022811). [pdf](https://www.annualreviews.org/doi/pdf/10.1146/annurev-animal-022516-022811)
 
 ### 2 
-Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, et al. (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715
+Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, et al. (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. [https://doi.org/10.1371/journal.pone.0029715](https://doi.org/10.1371/journal.pone.0029715)
 
 ### 3
-Elliott M.J., Poelen, J.H. & Fortes, J.A.B. (2023) Signing data citations enables data verification and citation persistence. Sci Data. https://doi.org/10.1038/s41597-023-02230-y https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d
+Elliott M.J., Poelen, J.H. & Fortes, J.A.B. (2023) Signing data citations enables data verification and citation persistence. Sci Data. [https://doi.org/10.1038/s41597-023-02230-y](https://doi.org/10.1038/s41597-023-02230-y) [https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d](https://linker.bio/hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d)
