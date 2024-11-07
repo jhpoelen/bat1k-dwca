@@ -93,9 +93,9 @@ Bat1K: Best Available Genome Sequences for Living Bat (Chiroptera) Species. Acce
 
 ### Print first 10 lines of Myotis lucifugus sequence
 
-In the example below, we select a Bat1K index record with scientific name _Myotis lucifugus_ (Little brown bat), select their occurrenceID, and use this occurrenceId to query a local private repository with Bat1K sequences to retrieve their associated sequence. Then, the first 10 lines are printed using ```head``` after decompressing the sequence data using ```gunzip```.
+In the example below, we select a Bat1K index record with scientific name _Myotis lucifugus_ (Little brown bat), select their [occurrenceID](http://rs.tdwg.org/dwc/terms/occurrenceID), and use this occurrenceID to query a local private repository for their associated Bat1K sequence. Then, the first 10 lines are printed using ```head``` after decompressing the sequence data using ```gunzip```.
 
-This example shows that you can use an index integrate with privately available data repositories using digital signatures [```[3]```](#3) of the associated genome data files. 
+This example shows that you can use an index integrate with privately available data repositories using digital signatures [```[3]```](#3) of the associated genome data files as a reference. 
 
 
 ```bash
