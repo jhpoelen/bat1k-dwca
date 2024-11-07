@@ -1,6 +1,6 @@
 # Bat1K DwC-A
 
-This repository contains a prototype of Bat1K's Index of Available Genomes for Living Bat Species expressed as a [Darwin Core](#1) archive [1](#1). This prototype enable the registration of Bat1K metadata with biodiversity data infrastructures such as Global Biodiversity Information Facility (GBIF) as to increase the visibility and resuse of the data.  
+This repository contains a prototype of Bat1K's Index of Available Genomes for Living Bat Species expressed as a [Darwin Core](#1) archive [```[1]```](#1). This prototype enable the registration of Bat1K metadata with biodiversity data infrastructures such as Global Biodiversity Information Facility (GBIF) as to increase the visibility and resuse of the data.  
 
 This was a data experiment was the outcome of a presentation given by Jorrit Poelen on 27 September 2024 at the Bat1K Symposium of the North American Society for Bat Research (NASBR) in Guadalajara, Mexico. See also https://github.com/jhpoelen/bat1k-talk-2024-10-27 and https://jhpoelen.nl/bat1k-talk-2024-10-27 .
 
@@ -97,7 +97,7 @@ Bat1K: Best Available Genome Sequences for Living Bat (Chiroptera) Species. Acce
 
 In the example below, we select a Bat1K index record with scientific name _Myotis lucifugus_ (Little brown bat), select their occurrenceID, and use this occurrenceId to query a local private repository with Bat1K sequences to retrieve their associated sequence. Then, the first 10 lines are printed using ```head``` after decompressing the sequence data using ```gunzip```.
 
-This example shows that you can use an index integrate with privately available data repositories using digital signatures [2](#2) of the associated genome data files. 
+This example shows that you can use an index integrate with privately available data repositories using digital signatures [```[2]```](#2) of the associated genome data files. 
 
 
 ```bash
